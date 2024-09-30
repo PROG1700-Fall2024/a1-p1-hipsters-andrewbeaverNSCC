@@ -3,7 +3,7 @@
 
 #Student Name: Andrew Beaver
 #Program Title: Hipster's Local Vinyl Records
-#Description:  Assignment 1 Part 2
+#Description:  Assignment 1 Part 1
 
 def main():
     # YOUR CODE STARTS HERE, each line must be indented (one tab)
@@ -20,7 +20,7 @@ def main():
     #prompt user to give the cost of records
     recordCost = float(input("Enter the cost of records purchased: "))
 
-    #Math
+    #Math, get delivery cost, get record cost + tax, add those together
     deliveryCost = totalKM * 15
     purchaseCost = recordCost * 1.14
     totalCost = purchaseCost + deliveryCost
