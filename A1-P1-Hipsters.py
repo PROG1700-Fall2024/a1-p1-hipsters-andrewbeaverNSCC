@@ -7,6 +7,7 @@ Description:  Assignment 1 Part 1
 """
 
 def main():
+    
     #Display opening message to the user
     print("Hipter's Local Vinyl Records - Customer Order Details")
 
